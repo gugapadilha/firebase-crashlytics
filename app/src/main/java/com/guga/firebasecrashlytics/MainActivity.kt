@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnButton.setOnClickListener {
 
-            //could simulate a error when user click on button
+            //when the app crash, a notification will be appear in the Firebase Crashlytics
+            throw RuntimeException("crashlytics firebase test")
 
         }
     }
