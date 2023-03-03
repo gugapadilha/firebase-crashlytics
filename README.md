@@ -1,2 +1,2 @@
 # firebase-crashlytics
-Aplicaçao do Crashlytics na prática, retornando erros para o FirebaseCrashlytics
+Crashlytics application in practice, returning errors to FirebaseCrashlytics
